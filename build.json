@@ -1,10 +1,14 @@
 {
     "ios": {
         "debug": {
-            "buildFlag": [ "-UseModernBuildSystem=0" ]
+            "buildFlag": [ "-UseModernBuildSystem=0" ],
+            "codeSignIdentity": "iPhone Developer",
+            "packageType": "development"
         },
         "release": {
-            "buildFlag": [ "-UseModernBuildSystem=0" ]
+            "buildFlag": [ "-UseModernBuildSystem=0" ],
+            "codeSignIdentity": "iPhone Developer",
+            "packageType": "development"
         }
     }
 }
